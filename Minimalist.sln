@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimalist.Web", "Minimalist.Web\Minimalist.Web.csproj", "{7323B43F-DF4A-4131-AA38-6B40B35F6109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimalist.OAuth", "Minimalist.OAuth\Minimalist.OAuth.csproj", "{67472E47-739E-4998-A050-6EDE7F6BDE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimalist.Api", "Minimalist.Api\Minimalist.Api.csproj", "{337BB24C-25D2-4149-8C35-F057C18E37C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimalist.Data", "Minimalist.Data\Minimalist.Data.csproj", "{51CABE7F-1E68-4702-AA95-2DABB64113BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7323B43F-DF4A-4131-AA38-6B40B35F6109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7323B43F-DF4A-4131-AA38-6B40B35F6109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7323B43F-DF4A-4131-AA38-6B40B35F6109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7323B43F-DF4A-4131-AA38-6B40B35F6109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67472E47-739E-4998-A050-6EDE7F6BDE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67472E47-739E-4998-A050-6EDE7F6BDE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67472E47-739E-4998-A050-6EDE7F6BDE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67472E47-739E-4998-A050-6EDE7F6BDE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337BB24C-25D2-4149-8C35-F057C18E37C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337BB24C-25D2-4149-8C35-F057C18E37C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337BB24C-25D2-4149-8C35-F057C18E37C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337BB24C-25D2-4149-8C35-F057C18E37C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CABE7F-1E68-4702-AA95-2DABB64113BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CABE7F-1E68-4702-AA95-2DABB64113BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CABE7F-1E68-4702-AA95-2DABB64113BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CABE7F-1E68-4702-AA95-2DABB64113BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -29,8 +29,11 @@ namespace Minimalist.Api
                 .AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
                 .AddIdentityServerAuthentication(options =>
                 {
+                //authority = "http://localhost:5000/"
                     options.Authority = Configuration.GetValue<string>("Authentication:Authority");
+                    //apiName = "minimalist"
                     options.ApiName = Configuration.GetValue<string>("Authentication:ApiName");
+                    //apiSecret = "secret"
                     options.ApiSecret = Configuration.GetValue<string>("Authentication:ApiSecret");
                     options.RequireHttpsMetadata = false;
                 });

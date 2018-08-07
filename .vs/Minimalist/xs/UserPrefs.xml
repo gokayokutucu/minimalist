@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{7323B43F-DF4A-4131-AA38-6B40B35F6109}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Minimalist.Web/Views/Home/DoSomething.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Minimalist.OAuth/Startup.cs">
     <Files>
-      <File FileName="Minimalist.Web/Startup.cs" Line="34" Column="90" />
-      <File FileName="Minimalist.OAuth/Configuration/InMemoryConfiguration.cs" Line="23" Column="9" />
-      <File FileName="Minimalist.Web/Controllers/HomeController.cs" Line="37" Column="46" />
-      <File FileName="Minimalist.Web/Views/Home/DoSomething.cshtml" Line="6" Column="1" />
+      <File FileName="Minimalist.OAuth/Configuration/InMemoryConfiguration.cs" Line="72" Column="21" />
+      <File FileName="Minimalist.OAuth/Startup.cs" Line="46" Column="88" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

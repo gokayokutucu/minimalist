@@ -19,7 +19,7 @@ namespace Minimalist.OAuth
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseUrls("http://localhost:5002") //We add our website to here
+                .UseUrls("http://localhost:5000") //We add our website to reach
                 .UseStartup<Startup>()
                 .Build();
     }

@@ -41,9 +41,9 @@ namespace Minimalist.Web.Controllers
 
         public async Task RefreshTokenAsync(){
             //To retrieve OpenID Connect discovery documents and key sets
-            var discoveryClient = new DiscoveryClient("http://localhost:5002");
-            var authorizationServerInformation = await discoveryClient.GetAsync();
-            var client = new TokenClient(authorizationServerInformation.TokenEndpoint, "minimalist_code", "secret");
+            var discoveryClient = new DiscoveryClient("http://localhost:5000");
+            var doc = await discoveryClient.GetAsync();
+            var client = new TokenClient(doc.TokenEndpoint, "minimalist_code", "secret");
             //Set tokens
             var refreshToken = await HttpContext.GetTokenAsync("refresh_token");
             var tokenResponse = await client.RequestRefreshTokenAsync(refreshToken);

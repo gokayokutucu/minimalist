@@ -68,6 +68,7 @@ namespace Minimalist.OAuth.Configuration
                     //RequirePkce = true,
                     //AccessTokenLifetime = 70,
                     //AllowAccessTokensViaBrowser = true,
+
                     //Allow to communicate between user and API without website
                     AllowOfflineAccess = true,
                     RefreshTokenUsage = TokenUsage.OneTimeOnly,

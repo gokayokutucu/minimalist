@@ -26,25 +26,30 @@ namespace Minimalist.Web
         {
             services.AddMvc();
 
-            //turned off the JWT claim type mapping to allow well-known claims(e.g. ‘sub’ and ‘idp’) to flow through unmolested
+            //turned off the JWT claim type mapping to allow well-known claims(e.g. ‘sub’ and ‘idp’) 
+            //to flow through unmolested
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
-
+            //add authentication schemes
             services.AddAuthentication(options =>
             {
-                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
+                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme; //returns "Cookies" value as a string
+                options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;//returns "OpenIdConnect" value as a string
             })
+            //Add cookies with authentication scheme name
             .AddCookie("Cookies")
+            //Add OpenIDConnect with authentication scheme name
             .AddOpenIdConnect("OpenIdConnect", options =>
             {
                 options.SignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                //authority =  "http://localhost:5000/"
                 options.Authority = Configuration.GetValue<string>("Authentication:Authority");
-                //client_id = minimalist_implicit
+                //client_id = "minimalist_code"
                 options.ClientId = Configuration.GetValue<string>("Authentication:ClientId");
+                //client_secret = "secret"
                 options.ClientSecret = Configuration.GetValue<string>("Authentication:ClientSecret");
                 options.RequireHttpsMetadata = false;
                 //Add scopes
-                options.Scope.Add("minimalist");
+                options.Scope.Add("minimalist");//minimalist API
                 options.Scope.Add("offline_access");
                 options.Scope.Add("email");
                 //Save all tokens receiving back from the authorization server

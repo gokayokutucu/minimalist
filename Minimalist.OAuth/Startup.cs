@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Minimalist.OAuth.Configuration;
 using Microsoft.EntityFrameworkCore;
+using IdentityServer4.EntityFramework.DbContexts;
+using IdentityServer4.EntityFramework.Mappers;
 using System.Reflection;
 
 namespace Minimalist.OAuth
@@ -35,8 +37,8 @@ namespace Minimalist.OAuth
                     //.AddDeveloperSigningCredential() 
                     //We use AddSigningCredential() method instead of AddDeveloperSigningCredential() method for production.
                     .AddSigningCredential(new X509Certificate2(@"/Users/gokayokutucu/Projects/Minimalist/minimalist.pfx", "password"))
-                    .AddTestUsers(InMemoryConfiguration.Users())
-                    // this adds the config data from DB (clients, resources)
+                    .AddTestUsers(InMemoryConfiguration.GetUsers())
+                    // this adds the configuration data from DB (clients, resources)
                     .AddConfigurationStore(options =>
                      {
                          options.ConfigureDbContext = builder =>
@@ -62,6 +64,9 @@ namespace Minimalist.OAuth
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            //This will do the initial DB population
+            InitializeDatabase(app);
+
             //To get information out from console
             loggerFactory.AddConsole();
 
@@ -74,6 +79,62 @@ namespace Minimalist.OAuth
             app.UseStaticFiles();
             //To reach the OIDC - Go to http://localhost:5000/ and click the link on the page for discovery document 
             app.UseMvcWithDefaultRoute();
+        }
+
+        private static void InitializeDatabase(IApplicationBuilder app){
+            using (var serviceScope = app.ApplicationServices
+                                     .GetService<IServiceScopeFactory>()
+                                     .CreateScope())
+            {
+                PerformMigrations(serviceScope);
+                Seed(serviceScope);
+            }
+        }
+
+        private static void PerformMigrations(IServiceScope serviceScope)
+        {
+            serviceScope.ServiceProvider
+                        .GetRequiredService<PersistedGrantDbContext>()
+                        .Database
+                        .Migrate();
+            serviceScope.ServiceProvider
+                        .GetRequiredService<ConfigurationDbContext>()
+                        .Database
+                        .Migrate();
+        }
+
+        private static void Seed(IServiceScope serviceScope)
+        {
+            var context = serviceScope
+                       .ServiceProvider
+                       .GetRequiredService<ConfigurationDbContext>();
+
+            if (!context.Clients.Any())
+            {
+                foreach (var client in InMemoryConfiguration.GetClients())
+                {
+                    context.Clients.Add(client.ToEntity());
+                }
+                context.SaveChanges();
+            }
+
+            if (!context.IdentityResources.Any())
+            {
+                foreach (var resource in InMemoryConfiguration.GetIdentityResources())
+                {
+                    context.IdentityResources.Add(resource.ToEntity());
+                }
+                context.SaveChanges();
+            }
+
+            if (!context.ApiResources.Any())
+            {
+                foreach (var resource in InMemoryConfiguration.GetApiResources())
+                {
+                    context.ApiResources.Add(resource.ToEntity());
+                }
+                context.SaveChanges();
+            }
         }
     }
 }

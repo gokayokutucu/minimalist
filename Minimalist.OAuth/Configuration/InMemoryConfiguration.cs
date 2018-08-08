@@ -9,7 +9,7 @@ namespace Minimalist.OAuth.Configuration
 {
     public class InMemoryConfiguration
     {
-        public static IEnumerable<ApiResource> ApiResources(){
+        public static IEnumerable<ApiResource> GetApiResources(){
             return new []
             {
                 new ApiResource("minimalist", "Minimalist")
@@ -21,7 +21,7 @@ namespace Minimalist.OAuth.Configuration
             };
         }
 
-        public static IEnumerable<IdentityResource> IdentityResources()
+        public static IEnumerable<IdentityResource> GetIdentityResources()
         {
             return new List<IdentityResource>
             {
@@ -31,7 +31,7 @@ namespace Minimalist.OAuth.Configuration
             };
         }
 
-        public static IEnumerable<Client> Clients()
+        public static IEnumerable<Client> GetClients()
         {
             return new[]
             {
@@ -73,12 +73,13 @@ namespace Minimalist.OAuth.Configuration
                     AllowOfflineAccess = true,
                     RefreshTokenUsage = TokenUsage.OneTimeOnly,
                     RedirectUris = new []{"http://localhost:5001/signin-oidc"},
+                    FrontChannelLogoutUri = "http://localhost:5001/signout-oidc",
                     PostLogoutRedirectUris = new []{"http://localhost:5001/signout-callback-oidc"},
                 }
             };
         }
 
-        public static List<TestUser> Users()
+        public static List<TestUser> GetUsers()
         {
             return new List<TestUser>()
             {

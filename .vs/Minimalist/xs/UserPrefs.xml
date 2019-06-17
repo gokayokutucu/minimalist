@@ -1,15 +1,36 @@
 ﻿<Properties StartupConfiguration="{7323B43F-DF4A-4131-AA38-6B40B35F6109}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Minimalist.OAuth/Startup.cs">
+  <MonoDevelop.Ide.ItemProperties.Minimalist.Web PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Minimalist.OAuth/Configuration/InMemoryConfiguration.cs">
     <Files>
-      <File FileName="Minimalist.OAuth/Configuration/InMemoryConfiguration.cs" Line="72" Column="21" />
-      <File FileName="Minimalist.OAuth/Startup.cs" Line="46" Column="88" />
+      <File FileName="Minimalist.OAuth/Configuration/InMemoryConfiguration.cs" Line="18" Column="45" />
+      <File FileName="Minimalist.Web/Controllers/LogoutController.cs" Line="53" Column="84" />
+      <File FileName="Minimalist.Web/CookieEventHandler.cs" Line="32" Column="6" />
+      <File FileName="Minimalist.Web/Controllers/HomeController.cs" Line="88" Column="1" />
+      <File FileName="Minimalist.Web/Views/Shared/_Layout.cshtml" Line="36" Column="80" />
+      <File FileName="Minimalist.OAuth/appsettings.json" Line="7" Column="5" />
+      <File FileName="Minimalist.OAuth/Startup.cs" Line="45" Column="64" />
+      <File FileName="Minimalist.OAuth/Program.cs" Line="1" Column="1" />
+      <File FileName="Minimalist.OAuth/Data/Migrations/IdentityServer/ConfigurationDb/ConfigurationDbContextModelSnapshot.cs" Line="11" Column="28" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Minimalist" expanded="True">
+            <Node name="Minimalist" expanded="True">
+              <Node name="Minimalist.Api" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Properties" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Minimalist.Web PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>

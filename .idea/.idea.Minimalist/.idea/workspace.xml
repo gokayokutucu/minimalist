@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1db8ff8d-7f4e-4b1e-8def-760422e365e7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Minimalist/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Minimalist/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Minimalist/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Minimalist/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Minimalist/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minimalist.Web/Controllers/LogoutController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minimalist.Web/CookieEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Minimalist.Web/LogoutSessionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Minimalist/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Minimalist/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Minimalist/xs/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Minimalist/xs/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Minimalist/xs/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Minimalist/xs/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Minimalist/xs/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Minimalist/xs/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimalist.Api/Minimalist.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minimalist.Api/Minimalist.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimalist.Data/Minimalist.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minimalist.Data/Minimalist.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimalist.OAuth/Minimalist.OAuth.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minimalist.OAuth/Minimalist.OAuth.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimalist.Web/Minimalist.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Minimalist.Web/Minimalist.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimalist.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Minimalist.Web/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minimalist.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Minimalist.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-154580920">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="6" />
+          <entry key="cshtml" value="5" />
+          <entry key="json" value="3" />
+          <entry key="targets" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="6" />
+          <entry key="JSON" value="3" />
+          <entry key="MsBuild targets file" value="2" />
+          <entry key="Razor" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cshtml" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Razor" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Consent/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <marker date="1539634864790" expanded="true" signature="1940:1995" ph="@..." />
+                <marker date="1539634864790" expanded="true" signature="1940:2025" ph="&lt;ul.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="1940:2052" ph="&lt;div.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="1940:2070" ph="@..." />
+                <marker date="1539634864790" expanded="true" signature="1940:3114" ph="&lt;form.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="1940:3129" ph="&lt;div.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="1940:3140" ph="&lt;div.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="1940:3147" ph="&lt;div.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="2088:2456" ph="@..." />
+                <marker date="1539634864790" expanded="true" signature="2120:2456" ph="{...}" />
+                <marker date="1539634864790" expanded="true" signature="2159:2438" ph="&lt;div.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="2214:2411" ph="&lt;label.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="2474:3094" ph="&lt;div.../&gt;" />
+                <marker date="1539634864790" expanded="true" signature="2723:3071" ph="@..." />
+                <marker date="1539634864790" expanded="true" signature="2752:3071" ph="{...}" />
+                <marker date="1539634864790" expanded="true" signature="2799:3049" ph="&lt;a.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Login.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <marker date="1539634864788" expanded="true" signature="23:3698" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="52:111" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="158:3691" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="185:2245" ph="@..." />
+                <marker date="1539634864788" expanded="true" signature="213:2245" ph="{...}" />
+                <marker date="1539634864788" expanded="true" signature="236:2235" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="275:2216" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="329:448" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="469:2193" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="519:2166" ph="&lt;form.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="645:2134" ph="&lt;fieldset.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="688:939" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="972:1248" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="1281:1774" ph="@..." />
+                <marker date="1539634864788" expanded="true" signature="1311:1774" ph="{...}" />
+                <marker date="1539634864788" expanded="true" signature="1382:1740" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="1462:1697" ph="&lt;label.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="1807:2094" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="2255:3389" ph="@..." />
+                <marker date="1539634864788" expanded="true" signature="2297:3389" ph="{...}" />
+                <marker date="1539634864788" expanded="true" signature="2320:3379" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="2387:3360" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="2441:2563" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="2584:3337" ph="&lt;div.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="2633:3310" ph="&lt;ul.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="2686:3280" ph="@..." />
+                <marker date="1539634864788" expanded="true" signature="2743:3280" ph="{...}" />
+                <marker date="1539634864788" expanded="true" signature="2806:3250" ph="&lt;li.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="2847:3212" ph="&lt;a.../&gt;" />
+                <marker date="1539634864788" expanded="true" signature="3399:3680" ph="@..." />
+                <marker date="1539634864788" expanded="true" signature="3469:3680" ph="{...}" />
+                <marker date="1539634864788" expanded="true" signature="3492:3670" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RenderSection</find>
+      <find>Partial</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Shared/_ValidationSummary.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Account/LoggedOut.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Logout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Consent/_ScopeListItem.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Consent/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Diagnostics/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Quickstart/Consent/ConsentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Data/Migrations/IdentityServer/ConfigurationDb/ConfigurationDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Data/Migrations/IdentityServer/ConfigurationDb/20180807235030_InitialIdentityServerConfigurationDbMigration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Configuration/InMemoryConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Data/Migrations/IdentityServer/PersistedGrantDb/20180807234902_InitialIdentityServerPersistedGrantDbMigration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA1462E7-5953-44D6-AB47-24511181C773/ee/f9ac86e5/RazorPage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Quickstart/SecurityHeadersAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Quickstart/Home/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Quickstart/Home/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Grants/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Logout.cshtml" />
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Views/Consent/_ScopeListItem.cshtml" />
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Views/Diagnostics/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Views/Grants/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Quickstart/Consent/ConsentController.cs" />
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Quickstart/SecurityHeadersAttribute.cs" />
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Views/Account/LoggedOut.cshtml" />
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Views/Consent/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Login.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Minimalist" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Minimalist" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Minimalist.OAuth" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Minimalist" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Minimalist.OAuth" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Minimalist" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Minimalist.OAuth" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Quickstart" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="RenderSection&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Minimalist.Web">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Minimalist.OAuth" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Minimalist.OAuth/bin/Debug/netcoreapp2.0/Minimalist.OAuth.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Minimalist.OAuth" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Minimalist.OAuth/Minimalist.OAuth.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Minimalist.Web" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Minimalist.Web/bin/Debug/netcoreapp2.0/Minimalist.Web.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Minimalist.Web" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Minimalist.Web/Minimalist.Web.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.Minimalist.OAuth" />
+      <item itemvalue=".NET Project.Minimalist.Web" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Minimalist.Web" />
+        <item itemvalue=".NET Project.Minimalist.OAuth" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1db8ff8d-7f4e-4b1e-8def-760422e365e7" name="Default" comment="" />
+      <created>1539602665956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539602665956</updated>
+      <workItem from="1539602676093" duration="699000" />
+      <workItem from="1539603634733" duration="1114000" />
+      <workItem from="1539606502823" duration="20000" />
+      <workItem from="1539606674624" duration="751000" />
+      <workItem from="1539609771340" duration="998000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3582000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.39499193" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="REST Client" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info active="true" anchor="bottom" id="Build" order="15" visible="true" weight="0.47335422" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Login.cshtml</url>
+          <line>1</line>
+          <properties documentPath="$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Login.cshtml" initialLine="1">
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Logout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Consent/_ScopeListItem.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Diagnostics/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Grants/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Quickstart/SecurityHeadersAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Data/Migrations/IdentityServer/PersistedGrantDb/20180807234902_InitialIdentityServerPersistedGrantDbMigration.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Data/Migrations/IdentityServer/ConfigurationDb/20180807235030_InitialIdentityServerConfigurationDbMigration.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/share/dotnet/sdk/2.1.302/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.ObsoleteReferences.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="85" lean-forward="true" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DA1462E7-5953-44D6-AB47-24511181C773/ee/f9ac86e5/RazorPage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.Web/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <marker date="1533733536224" expanded="true" signature="16:3436" ph="&lt;html.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="23:848" ph="&lt;head.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="196:386" ph="&lt;environment.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="391:840" ph="&lt;environment.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="849:3428" ph="&lt;body.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="860:2031" ph="&lt;nav.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="921:2020" ph="&lt;div.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="957:1476" ph="&lt;div.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="1001:1345" ph="&lt;button.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="1489:2005" ph="&lt;div.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="1544:1986" ph="&lt;ul.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="2036:2203" ph="&lt;div.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="2118:2192" ph="&lt;footer.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="2209:2463" ph="&lt;environment.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="2468:3372" ph="&lt;environment.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="2512:2860" ph="&lt;script.../&gt;" />
+            <marker date="1533733536224" expanded="true" signature="2869:3278" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Account/LoggedOut.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding>
+            <marker date="1539634864786" expanded="true" signature="27:130" ph="@..." />
+            <marker date="1539634864786" expanded="true" signature="132:659" ph="&lt;div.../&gt;" />
+            <marker date="1539634864786" expanded="true" signature="173:248" ph="&lt;h1.../&gt;" />
+            <marker date="1539634864786" expanded="true" signature="254:505" ph="@..." />
+            <marker date="1539634864786" expanded="true" signature="295:505" ph="{...}" />
+            <marker date="1539634864786" expanded="true" signature="310:499" ph="&lt;div.../&gt;" />
+            <marker date="1539634864786" expanded="true" signature="511:652" ph="@..." />
+            <marker date="1539634864786" expanded="true" signature="547:652" ph="{...}" />
+            <marker date="1539634864786" expanded="true" signature="661:796" ph="@{...}" />
+            <marker date="1539634864786" expanded="true" signature="684:794" ph="@..." />
+            <marker date="1539634864786" expanded="true" signature="725:794" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Shared/_ValidationSummary.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1520591012700" expanded="true" signature="52:190" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Quickstart/Consent/ConsentController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2797">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1539634864773" expanded="true" signature="0:175" ph="/* Copyright (c) Brock Allen &amp; Dominick Baier. All rights reserved. ... */" />
+            <marker date="1539634864773" expanded="true" signature="184:465" ph="..." />
+            <marker date="1539634864773" expanded="true" signature="476:557" ph="/// This controller processes the consent UI ... " />
+            <marker date="1539634864773" expanded="true" signature="643:9048" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="1112:1286" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="1296:1446" ph="/// Shows the consent screen ... " />
+            <marker date="1539634864773" expanded="true" signature="1529:1741" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="1626:1696" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="1751:1835" ph="/// Handles the consent screen postback ... " />
+            <marker date="1539634864773" expanded="true" signature="1961:2447" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="2061:2142" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="2186:2284" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="2318:2402" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="2693:4942" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="2930:3015" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="3130:4024" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="3307:3866" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="3450:3621" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="3700:3847" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="3887:4010" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="4041:4155" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="4196:4718" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="4735:4904" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="5058:6262" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="5187:6092" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="5331:5939" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="5579:5724" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="5749:5921" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="5960:6078" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="6109:6226" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="6465:7685" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="7362:7651" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="7458:7635" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="7777:8153" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="7838:8142" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="8230:8588" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="8291:8577" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="8654:9042" ph="{...}" />
+            <marker date="1539634864773" expanded="true" signature="8715:9031" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Data/Migrations/IdentityServer/ConfigurationDb/ConfigurationDbContextModelSnapshot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4974">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1533685830529" expanded="false" signature="28:289" ph="..." />
+            <marker date="1533685830529" expanded="true" signature="364:20470" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="484:20468" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="560:20462" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="969:1636" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="1737:2219" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="2312:3239" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="3337:3818" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="3912:4609" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="4700:7609" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="7705:8311" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="8412:8894" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="8994:9478" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="9583:10071" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="10183:10692" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="10791:11401" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="11503:11992" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="12088:12564" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="12661:13389" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="13487:13984" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="14085:14926" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="15027:15326" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="15419:15714" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="15812:16102" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="16196:16492" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="16588:16868" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="16969:17261" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="17361:17652" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="17757:18059" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="18171:18467" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="18566:18850" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="18952:19238" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="19334:19621" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="19718:20005" ph="{...}" />
+            <marker date="1533685830529" expanded="true" signature="20103:20417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Configuration/InMemoryConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+          <folding>
+            <marker date="1539634864764" expanded="false" signature="6:158" ph="..." />
+            <marker date="1539634864764" expanded="true" signature="200:3944" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="241:3942" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="312:645" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="352:634" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="430:620" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="721:960" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="790:949" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="1016:1175" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="1064:1175" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="1092:1175" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="1453:2190" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="1736:1939" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="2218:3562" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="2515:2788" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="2810:3103" ph="/* OAuth 2.0 grant that native apps use in order to access an API ... */" />
+            <marker date="1539634864764" expanded="true" signature="3309:3450" ph="/* FrontChannelLogoutUri = &quot;http://localhost:5001/signout-oidc&quot;, ... */" />
+            <marker date="1539634864764" expanded="true" signature="3847:3936" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="3847:3925" ph="{...}" />
+            <marker date="1539634864764" expanded="true" signature="3847:3911" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Quickstart/Home/ErrorViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1520591012683" expanded="true" signature="0:175" ph="/* Copyright (c) Brock Allen &amp; Dominick Baier. All rights reserved. ... */" />
+            <marker date="1520591012683" expanded="true" signature="282:342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Quickstart/Home/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1539634864779" expanded="true" signature="0:175" ph="/* Copyright (c) Brock Allen &amp; Dominick Baier. All rights reserved. ... */" />
+            <marker date="1539634864779" expanded="true" signature="184:272" ph="..." />
+            <marker date="1539634864779" expanded="true" signature="381:1165" ph="{...}" />
+            <marker date="1539634864779" expanded="true" signature="538:598" ph="{...}" />
+            <marker date="1539634864779" expanded="true" signature="636:683" ph="{...}" />
+            <marker date="1539634864779" expanded="true" signature="693:762" ph="/// Shows the error page ... " />
+            <marker date="1539634864779" expanded="true" signature="825:1159" ph="{...}" />
+            <marker date="1539634864779" expanded="true" signature="1046:1110" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Consent/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <marker date="1539634864790" expanded="true" signature="1940:1995" ph="@..." />
+            <marker date="1539634864790" expanded="true" signature="1940:2025" ph="&lt;ul.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="1940:2052" ph="&lt;div.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="1940:2070" ph="@..." />
+            <marker date="1539634864790" expanded="true" signature="1940:3114" ph="&lt;form.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="1940:3129" ph="&lt;div.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="1940:3140" ph="&lt;div.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="1940:3147" ph="&lt;div.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="2088:2456" ph="@..." />
+            <marker date="1539634864790" expanded="true" signature="2120:2456" ph="{...}" />
+            <marker date="1539634864790" expanded="true" signature="2159:2438" ph="&lt;div.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="2214:2411" ph="&lt;label.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="2474:3094" ph="&lt;div.../&gt;" />
+            <marker date="1539634864790" expanded="true" signature="2723:3071" ph="@..." />
+            <marker date="1539634864790" expanded="true" signature="2752:3071" ph="{...}" />
+            <marker date="1539634864790" expanded="true" signature="2799:3049" ph="&lt;a.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minimalist.OAuth/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <marker date="1539634864788" expanded="true" signature="23:3698" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="52:111" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="158:3691" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="185:2245" ph="@..." />
+            <marker date="1539634864788" expanded="true" signature="213:2245" ph="{...}" />
+            <marker date="1539634864788" expanded="true" signature="236:2235" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="275:2216" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="329:448" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="469:2193" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="519:2166" ph="&lt;form.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="645:2134" ph="&lt;fieldset.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="688:939" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="972:1248" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="1281:1774" ph="@..." />
+            <marker date="1539634864788" expanded="true" signature="1311:1774" ph="{...}" />
+            <marker date="1539634864788" expanded="true" signature="1382:1740" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="1462:1697" ph="&lt;label.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="1807:2094" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="2255:3389" ph="@..." />
+            <marker date="1539634864788" expanded="true" signature="2297:3389" ph="{...}" />
+            <marker date="1539634864788" expanded="true" signature="2320:3379" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="2387:3360" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="2441:2563" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="2584:3337" ph="&lt;div.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="2633:3310" ph="&lt;ul.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="2686:3280" ph="@..." />
+            <marker date="1539634864788" expanded="true" signature="2743:3280" ph="{...}" />
+            <marker date="1539634864788" expanded="true" signature="2806:3250" ph="&lt;li.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="2847:3212" ph="&lt;a.../&gt;" />
+            <marker date="1539634864788" expanded="true" signature="3399:3680" ph="@..." />
+            <marker date="1539634864788" expanded="true" signature="3469:3680" ph="{...}" />
+            <marker date="1539634864788" expanded="true" signature="3492:3670" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

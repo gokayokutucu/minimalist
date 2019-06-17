@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using IdentityModel;
 
 namespace Minimalist.Web
 {
@@ -25,6 +27,8 @@ namespace Minimalist.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddTransient<CookieEventHandler>();
+            services.AddSingleton<LogoutSessionManager>();
 
             //turned off the JWT claim type mapping to allow well-known claims(e.g. ‘sub’ and ‘idp’) 
             //to flow through unmolested
@@ -36,7 +40,12 @@ namespace Minimalist.Web
                 options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;//returns "OpenIdConnect" value as a string
             })
             //Add cookies with authentication scheme name
-            .AddCookie("Cookies")
+           .AddCookie("Cookies", options =>
+           {
+               options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+
+               options.EventsType = typeof(CookieEventHandler);
+           })
             //Add OpenIDConnect with authentication scheme name
             .AddOpenIdConnect("OpenIdConnect", options =>
             {
@@ -56,6 +65,11 @@ namespace Minimalist.Web
                 options.SaveTokens = true;
                 options.GetClaimsFromUserInfoEndpoint = true;
                 options.ResponseType = "code id_token";
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    NameClaimType = JwtClaimTypes.Name,
+                    RoleClaimType = JwtClaimTypes.Role,
+                };
             });
         }
 
